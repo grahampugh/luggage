@@ -338,7 +338,7 @@ kill_relocate:
 	@-sudo /usr/bin/python -c "$$PYTHON_PLISTER"
 
 local_pkg:
-	@${CP} -R ${PAYLOAD_D}/${PACKAGE_FILE} .
+	@${CP} -R ${PAYLOAD_D}/${PACKAGE_FILE} ~/Luggage-Packages/
 
 # Target directory rules
 
